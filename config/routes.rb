@@ -1,4 +1,10 @@
 ProjectX::Application.routes.draw do
+  get "users/edit"
+
+  get "users/delete"
+
+  get "users/update"
+
   get "users/new"
 
   root to: 'static_pages#home'
